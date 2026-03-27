@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { PageHero } from "@/components/shared/PageHero";
 import { ContactForm } from "@/components/contact/ContactForm";
-import { MapPin, Phone, Mail, Instagram, Facebook } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 
 export default function ContactoPage() {
