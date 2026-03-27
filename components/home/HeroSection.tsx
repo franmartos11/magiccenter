@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export function HeroSection() {
   const headline = "SOMOS MAGIA.".split("");
@@ -80,12 +81,12 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 1.4 }}
           className="flex flex-col sm:flex-row gap-6 items-center"
         >
-          <button className="bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white px-8 py-4 uppercase font-bold tracking-wider transition-colors duration-300">
+          <Link href="/servicios" className="bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white px-8 py-4 uppercase font-bold tracking-wider transition-colors duration-300">
             Ver Servicios
-          </button>
-          <button className="bg-transparent border border-[var(--border-color)] hover:bg-white/5 text-white px-8 py-4 uppercase font-bold tracking-wider transition-colors duration-300">
+          </Link>
+          <Link href="/tienda" className="bg-transparent border border-[var(--border-color)] hover:bg-white/5 text-white px-8 py-4 uppercase font-bold tracking-wider transition-colors duration-300">
             Ir a la Tienda
-          </button>
+          </Link>
         </motion.div>
       </div>
 

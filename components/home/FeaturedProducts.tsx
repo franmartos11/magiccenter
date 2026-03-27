@@ -32,69 +32,71 @@ function ProductCard({ product }: { product: typeof productsData[0] }) {
       }}
       className="group outline-none"
     >
-      <motion.div
-        style={{
-          rotateX,
-          rotateY,
-          transformStyle: "preserve-3d",
-        }}
-        onMouseMove={handleMouseMove}
-        onMouseLeave={handleMouseLeave}
-        className="relative flex flex-col items-center bg-[var(--bg-surface)] p-6 h-[480px] border border-[var(--border-color)] transition-colors duration-500 hover:border-[var(--accent)]"
-      >
-        {/* Glow effect */}
-        <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-transparent to-red-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-        
-        {/* Badges */}
-        {product.badge && (
-          <div className="absolute top-4 left-4 z-10 px-3 py-1 text-[10px] font-bold tracking-widest uppercase bg-[var(--accent)] text-white font-mono">
-            {product.badge}
-          </div>
-        )}
-
-        <div className="text-center w-full mb-2">
-          <p className="font-mono text-[var(--accent)] text-[10px] tracking-widest uppercase mb-1">
-            {product.brand}
-          </p>
-        </div>
-        
-        {/* Image Container */}
-        <motion.div 
-          style={{ transform: "translateZ(50px)" }}
-          className="relative w-full h-[220px] mb-6 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+      <Link href={`/tienda/${product.slug}`} className="block h-full cursor-pointer">
+        <motion.div
+          style={{
+            rotateX,
+            rotateY,
+            transformStyle: "preserve-3d",
+          }}
+          onMouseMove={handleMouseMove}
+          onMouseLeave={handleMouseLeave}
+          className="relative flex flex-col items-center bg-[var(--bg-surface)] p-6 h-[480px] border border-[var(--border-color)] transition-colors duration-500 hover:border-[var(--accent)]"
         >
-          <div className="w-[180px] h-[180px] rounded-full bg-gradient-to-b from-transparent to-[var(--bg-base)]/50 absolute bottom-0 blur-xl" />
-          <Image
-            src={product.image}
-            alt={product.title}
-            width={200}
-            height={200}
-            className="object-contain drop-shadow-[0_20px_20px_rgba(0,0,0,0.8)]"
-          />
-        </motion.div>
-
-        {/* Info Container */}
-        <motion.div 
-          style={{ transform: "translateZ(30px)" }}
-          className="flex flex-col flex-grow items-center justify-end text-center w-full z-10"
-        >
-          <h4 className="font-heading text-xl font-bold uppercase tracking-wide leading-tight mb-2">
-            {product.title}
-          </h4>
-          <p className="text-[var(--text-muted)] text-sm mb-4 line-clamp-2">
-            {product.subtitle}
-          </p>
+          {/* Glow effect */}
+          <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-transparent to-red-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           
-          <div className="flex items-center justify-between w-full mt-auto pt-4 border-t border-[var(--border-color)] group-hover:border-[var(--accent)]/30 transition-colors duration-500">
-            <span className="font-mono font-bold text-lg text-white">
-              ARS {product.price.toLocaleString("es-AR")}
-            </span>
-            <button className="text-[var(--accent)] hover:text-white transition-colors p-2 relative overflow-hidden flex items-center justify-center">
-              <ShoppingCart size={20} />
-            </button>
+          {/* Badges */}
+          {product.badge && (
+            <div className="absolute top-4 left-4 z-10 px-3 py-1 text-[10px] font-bold tracking-widest uppercase bg-[var(--accent)] text-white font-mono">
+              {product.badge}
+            </div>
+          )}
+
+          <div className="text-center w-full mb-2">
+            <p className="font-mono text-[var(--accent)] text-[10px] tracking-widest uppercase mb-1">
+              {product.brand}
+            </p>
           </div>
+          
+          {/* Image Container */}
+          <motion.div 
+            style={{ transform: "translateZ(50px)" }}
+            className="relative w-full h-[220px] mb-6 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+          >
+            <div className="w-[180px] h-[180px] rounded-full bg-gradient-to-b from-transparent to-[var(--bg-base)]/50 absolute bottom-0 blur-xl" />
+            <Image
+              src={product.image}
+              alt={product.title}
+              width={200}
+              height={200}
+              className="object-contain drop-shadow-[0_20px_20px_rgba(0,0,0,0.8)]"
+            />
+          </motion.div>
+
+          {/* Info Container */}
+          <motion.div 
+            style={{ transform: "translateZ(30px)" }}
+            className="flex flex-col flex-grow items-center justify-end text-center w-full z-10"
+          >
+            <h4 className="font-heading text-xl font-bold uppercase tracking-wide leading-tight mb-2">
+              {product.title}
+            </h4>
+            <p className="text-[var(--text-muted)] text-sm mb-4 line-clamp-2">
+              {product.subtitle}
+            </p>
+            
+            <div className="flex items-center justify-between w-full mt-auto pt-4 border-t border-[var(--border-color)] group-hover:border-[var(--accent)]/30 transition-colors duration-500">
+              <span className="font-mono font-bold text-lg text-white">
+                ARS {product.price.toLocaleString("es-AR")}
+              </span>
+              <div className="text-[var(--accent)] group-hover:bg-[var(--accent)] group-hover:text-white transition-all duration-300 p-2 rounded-full relative overflow-hidden flex items-center justify-center">
+                <ShoppingCart size={18} />
+              </div>
+            </div>
+          </motion.div>
         </motion.div>
-      </motion.div>
+      </Link>
     </motion.div>
   );
 }

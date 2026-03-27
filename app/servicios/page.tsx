@@ -7,7 +7,7 @@ const servicesDataFull = [
     number: "01",
     title: "Detailing Exterior",
     description: "Proceso completo de descontaminación del barniz, corrección de rayas y realce profundo de brillo. Pensado para vehículos con pintura opaca, spider-webs o contaminantes incrustados que un lavado común no elimina.",
-    image: "https://images.unsplash.com/photo-1600539758206-218209867540?q=80&w=1200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=1200&auto=format&fit=crop",
     checklist: [
       "Lavado meticuloso y descontaminación férrica/mecánica con arcilla",
       "Medición de espesor de laca y pintura",
@@ -38,7 +38,7 @@ const servicesDataFull = [
     number: "03",
     title: "Tratamiento Cerámico",
     description: "Aplicación de coating molecular de dureza 9H/10H. Se fusiona con el barniz creando una coraza que protege la pintura durante 3 a 5 años. Repele agua (hidrofobia extrema), polvo, excremento de aves, savia y rayos UV.",
-    image: "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=1200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?q=80&w=1200&auto=format&fit=crop",
     checklist: [
       "Incluye Detailing Exterior completo como preparación obligatoria",
       "Aplicación de coating en pintura, plásticos y ópticas",
@@ -54,7 +54,7 @@ const servicesDataFull = [
     number: "04",
     title: "Film PPF (Paint Protection)",
     description: "La protección definitiva. Película transparente de poliuretano auto-regenerativa, que absorbe el impacto físico de piedras en ruta, rayones de llaves o raspones, manteniendo la pintura original de fábrica intacta.",
-    image: "https://images.unsplash.com/photo-1549643444-245f7783fdac?q=80&w=1200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=1200&auto=format&fit=crop",
     checklist: [
       "Instalación de film pre-corte con plotter (sin cutter sobre el auto)",
       "Propiedad de auto-curado con calor (rayas leves desaparecen)",
@@ -70,7 +70,7 @@ const servicesDataFull = [
     number: "05",
     title: "Mecánica Integral",
     description: "No solo embellecemos, reparamos. Contamos con un taller equipado con tecnología de punta y scanners para brindar diagnósticos precisos y mantenimientos programados que aseguran la fiabilidad y performance de tu vehículo.",
-    image: "https://images.unsplash.com/photo-1486262715619-679ce583efb8?q=80&w=1200&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=1200&auto=format&fit=crop",
     checklist: [
       "Service técnico de motor: cambio de aceite, filtros, bujías",
       "Diagnóstico computarizado por escáner multimarca",

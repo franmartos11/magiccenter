@@ -6,7 +6,7 @@ export const productsData = [
     title: "MAGNUM SHIELD 9H",
     subtitle: "Dureza de lápiz 9H · Nano-Ceramic",
     price: 145000,
-    image: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=800&auto=format&fit=crop",
     badge: "PREMIUM",
   },
   {
@@ -16,7 +16,7 @@ export const productsData = [
     title: "VORTEX SHAMPOO PH NEUTRO",
     subtitle: "Fórmula de espuma de alta densidad",
     price: 12500,
-    image: "https://images.unsplash.com/photo-1623868661726-5bbf227181c2?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?q=80&w=800&auto=format&fit=crop",
     badge: "ESSENTIAL",
   },
   {
@@ -26,7 +26,7 @@ export const productsData = [
     title: "CERA DE CARNAUBA OBSIDIAN",
     subtitle: "Carnauba Brasileña Grado T1",
     price: 54900,
-    image: "https://images.unsplash.com/photo-1506169542-a7d1891ce5c9?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=800&auto=format&fit=crop",
     badge: "NEW ARRIVAL",
   },
   {
@@ -36,7 +36,7 @@ export const productsData = [
     title: "TOALLA ULTRA-PLUSH 1200GSM",
     subtitle: "Microfibra de secado sin rayas",
     price: 18900,
-    image: "https://images.unsplash.com/photo-1584988775269-ad6a9fe789f2?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=800&auto=format&fit=crop",
     badge: "",
   },
   {
@@ -46,7 +46,7 @@ export const productsData = [
     title: "IRON X PURGE 500ML",
     subtitle: "Descontaminante férrico extremo",
     price: 32600,
-    image: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?q=80&w=800&auto=format&fit=crop",
     badge: "SALE",
   },
   {
@@ -56,7 +56,7 @@ export const productsData = [
     title: "CRYSTAL SERUM ULTRA 50ML",
     subtitle: "Resistencia térmica extrema",
     price: 165000,
-    image: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=800&auto=format&fit=crop",
     badge: "HOT",
   },
   {
@@ -66,7 +66,7 @@ export const productsData = [
     title: "PX-PRO DUAL ACTION 15MM",
     subtitle: "Máquina pulidora roto orbital",
     price: 485000,
-    image: "https://images.unsplash.com/photo-1623868661726-5bbf227181c2?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=800&auto=format&fit=crop",
     badge: "",
   },
   {
@@ -76,7 +76,7 @@ export const productsData = [
     title: "MASTER POLISH TRIO PACK",
     subtitle: "Kit de pulido 3 pasos (Corte, Medio, Fino)",
     price: 82000,
-    image: "https://images.unsplash.com/photo-1506169542-a7d1891ce5c9?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=800&auto=format&fit=crop",
     badge: "",
   }
 ];
