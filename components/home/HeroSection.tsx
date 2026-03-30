@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export function HeroSection() {
-  const headline = "SOMOS MAGIC CENTER.".split("");
+  const headline = "MAGIC CENTER".split("");
   const subheadline = "DONDE TU AUTO RENACE".split("");
 
   return (
