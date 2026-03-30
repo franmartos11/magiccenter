@@ -66,7 +66,7 @@ export function Testimonials() {
                   ))}
                 </div>
 
-                <p className="text-white/90 text-sm md:text-base italic mb-8 min-h-[80px]">
+                <p className="text-white/95 text-base md:text-lg italic mb-8 leading-relaxed">
                   &quot;{t.text}&quot;
                 </p>
 

@@ -77,7 +77,7 @@ export function WorkProcess() {
                   <h4 className="font-heading text-2xl uppercase tracking-wider font-bold mb-3 group-hover:text-[var(--accent)] transition-colors">
                     {step.title}
                   </h4>
-                  <p className="text-[var(--text-muted)] text-sm max-w-[200px] mx-auto">
+                  <p className="text-[var(--text-muted)] group-hover:text-white transition-all duration-300 text-sm md:text-base max-w-[240px] mx-auto leading-relaxed">
                     {step.desc}
                   </p>
                 </motion.div>

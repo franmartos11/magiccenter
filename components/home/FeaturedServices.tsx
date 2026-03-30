@@ -47,14 +47,14 @@ export function FeaturedServices() {
                     {service.number}
                   </div>
 
-                  <div className="transform translate-y-8 transition-transform duration-500 ease-out group-hover:translate-y-0">
-                    <h3 className="font-heading text-4xl font-bold uppercase mb-4 text-white">
+                  <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                    <h3 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold uppercase mb-3 text-white">
                       {service.title}
                     </h3>
-                    <p className="text-[var(--text-muted)] group-hover:text-white/80 transition-colors duration-500 mb-6 font-medium max-w-[90%]">
+                    <p className="text-[var(--text-muted)] group-hover:text-white transition-colors duration-500 mb-6 font-medium text-sm md:text-base leading-relaxed">
                       {service.shortDesc}
                     </p>
-                    <div className="inline-flex items-center gap-2 text-[var(--accent)] font-bold tracking-widest uppercase text-sm opacity-0 transform -translate-x-4 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0">
+                    <div className="inline-flex items-center gap-2 text-[var(--accent)] font-bold tracking-widest uppercase text-xs sm:text-sm opacity-0 transform -translate-x-4 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0">
                       Ver más <ArrowRight size={16} />
                     </div>
                   </div>

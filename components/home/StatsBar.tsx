@@ -43,7 +43,7 @@ function StatItem({ end, suffix = "", prefix = "", label, duration = 2 }: StatIt
         initial={{ opacity: 0, y: 10 }}
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
         transition={{ duration: 0.5, delay: 0.4 }}
-        className="text-[var(--text-muted)] uppercase text-xs tracking-[0.2em] font-medium"
+        className="text-[var(--text-muted)] group-hover:text-white transition-colors uppercase text-xs sm:text-sm md:text-base tracking-[0.1em] font-medium"
       >
         {label}
       </motion.div>
